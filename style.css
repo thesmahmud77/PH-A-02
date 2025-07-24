@@ -272,7 +272,7 @@ deals-right-card {
   /* background-color: red; */
   width: 700px;
   height: 460px;
-  background-image: url(/assets/deal-zabo.png);
+  background-image: url(./assets/deal-zabo.png);
   background-size: cover;
 
   display: flex;
