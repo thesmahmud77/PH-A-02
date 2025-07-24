@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: #f5f8ff;
+  /* background-color: #f5f8ff; */
   /* font-family: "Noto Serif", serif; */
   /* font-family: "Inter", sans-serif; */
 }
@@ -162,7 +162,8 @@ nav ul {
 .bedge-img {
   width: 250px;
   height: 250px;
-  background-color: none;
+  /* background-color: none; */
+  background-color: transparent;
 
   position: absolute;
   right: -10%;
@@ -172,17 +173,20 @@ nav ul {
 .flower-img img {
   width: 100%;
 }
-
 .flower-content {
   text-align: left;
   width: 50%;
 }
-
+.deals-img-card-wrapper h2,h3{
+  color: white;
+  text-shadow: #09080f;
+}
 .flower-content h2 {
   font-size: 55px;
   font-weight: 800px;
   text-align: left;
   line-height: 50px;
+  /* color: white; */
 }
 
 .flower-content li {
@@ -223,25 +227,24 @@ nav ul {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
-  gap: 70px;
+  gap: 30px;
 }
 .deals-left-card {
-  /* background-color: red; */
-  max-width: 50%;
+  max-width: 40%;
   height: 500px;
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .deals-left-content1 {
   background-image: url(/assets/deal-bloom.png);
   background-size: cover;
-  width: 600px;
-  height: 300px;
+  width: 450px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   border-radius: 20px;
   border: #09080f 2px dashed;
 }
@@ -249,8 +252,8 @@ nav ul {
 .deals-left-content2 {
   background-image: url(/assets/deal-ana.png);
   background-size: cover;
-  width: 600px;
-  height: 300px;
+  width: 450px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -265,8 +268,8 @@ deals-right-card {
 
 .deals-right-content {
   /* background-color: red; */
-  width: 800px;
-  height: 650px;
+  width: 700px;
+  height: 460px;
   background-image: url(/assets/deal-zabo.png);
   background-size: cover;
 
@@ -278,7 +281,7 @@ deals-right-card {
 }
 
 .deals-img-card-wrapper h2 {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 600;
   font-family: "neto";
 }
@@ -290,7 +293,7 @@ deals-right-card {
 }
 
 .deals-right-content h2 {
-  font-size: 56px;
+  font-size: 42px;
   font-weight: 700;
 }
 .deals-right-content h3 {
@@ -317,7 +320,8 @@ deals-right-card {
 .cta-wrapper h1 {
   font-size: 50px;
   font-weight: 700px;
-  background-color: none;
+  /* background-color: none; */
+  color: white;
 }
 
 .input-email {
@@ -388,3 +392,7 @@ footer ul li {
 .logo-part {
   width: 30%;
 }
+
+
+/* Responsive design */
+
