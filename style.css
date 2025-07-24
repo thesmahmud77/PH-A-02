@@ -535,7 +535,7 @@ footer ul li {
   .deals-left-content2,
   .deals-right-content {
     width: 100%;
-    height: 280px;
+    height: 250px;
     margin-bottom: 15px;
   }
   .deals-right-content {
@@ -574,7 +574,7 @@ footer ul li {
     padding: 0.8rem;
     width: 100%;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
   }
   .input-btn {
     padding: 0.9rem 1.5rem;
