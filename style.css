@@ -234,7 +234,7 @@ h3 {
 .deals-left-card {
   max-width: 40%;
   height: 500px;
-  /* gap: 20px; */
+  gap: 20px;
 }
 
 .deals-left-content1 {
